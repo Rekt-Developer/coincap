@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  margin-right: 300px;
+}
+
+.boxCase {
+  font-size: 80px !important;
+}
+
+.boxText {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 15px 10px;
+}

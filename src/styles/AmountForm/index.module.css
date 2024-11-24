@@ -1,0 +1,34 @@
+.animatTxt {
+  animation: anim 1s linear infinite;
+  transition: all 0.5s ease;
+  color: #ffd900 !important;
+  font-size: 100px !important;
+  position: relative;
+}
+@keyframes anim {
+  0% {
+    transform: perspective(23rem) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(10rem) rotateY(360deg);
+  }
+}
+
+.textQuantity {
+  text-align: center;
+}
+
+.textField {
+  margin: 20px 0px !important;
+  border: 1px solid #028202e0 !important;
+  border-radius: 10px 0px 0px 10px !important;
+}
+
+.buttonBuy {
+  margin: 20px 0px !important;
+  border: 1px solid #028202e0 !important;
+  background-color: #028202e0 !important;
+  border-radius: 0px 10px 10px 0px !important;
+  color: white !important;
+  height: 42px !important;
+}

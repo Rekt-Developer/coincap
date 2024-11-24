@@ -1,0 +1,17 @@
+.animatIcon {
+  animation: anim 1s linear infinite !important;
+  transition: all 0.5s ease !important;
+  color: #ffd900 !important;
+  font-size: 100px !important;
+  position: relative !important;
+  left: 45% !important;
+  top: 150px !important;
+}
+@keyframes anim {
+  0% {
+    transform: perspective(23rem) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(10rem) rotateY(360deg);
+  }
+}

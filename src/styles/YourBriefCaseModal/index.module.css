@@ -1,0 +1,51 @@
+.closeButton {
+  position: absolute;
+  top: -75px;
+  right: -350px;
+  border: 1px solid #000000 !important;
+  border-radius: 20px !important;
+  color: #000000;
+}
+
+.closeButton:hover {
+  background-color: #e84034;
+  border: 1px solid #e84034 !important;
+  color: #ffffff;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  background-color: #ffffff;
+  box-shadow: 24;
+  padding: 40px;
+  text-align: center;
+  border: 0px !important;
+  border-radius: 20px;
+}
+
+.boxTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.table {
+  min-width: 650px !important;
+}
+
+.boxNoCoins {
+  margin-top: 10px !important;
+}
+
+.noMoneyIcon {
+  font-size: 40px !important;
+}
+
+.total {
+  margin-top: 20px !important;
+}

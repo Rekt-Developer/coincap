@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+}
+
+.popular {
+  text-decoration: underline;
+  margin-left: 20px !important;
+}
+
+.boxCoin {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}

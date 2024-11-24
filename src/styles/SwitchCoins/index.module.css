@@ -1,0 +1,33 @@
+.buttonPagination {
+  padding: 14px 8px !important;
+  border-radius: 100% !important;
+  color: #000000a3 !important;
+}
+
+.buttonPagination:hover {
+  border-radius: 100% !important;
+  background-color: #00000016 !important;
+  transition: 1s !important;
+}
+
+.buttonPagination:disabled {
+  color: black !important;
+  background-color: #00000046 !important;
+  transition: 2s !important;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  min-width: 650px !important;
+}
+
+.stack {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 10px !important;
+}

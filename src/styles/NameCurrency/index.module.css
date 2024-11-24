@@ -1,0 +1,45 @@
+.animatIcon {
+  animation: anim 1s linear infinite;
+  transition: all 0.5s ease;
+  color: #ffd900;
+  font-size: 100px !important;
+  position: relative;
+  left: 45%;
+  top: 150px !important;
+}
+@keyframes anim {
+  0% {
+    transform: perspective(23rem) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(10rem) rotateY(360deg);
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonBack {
+  position: relative;
+  top: 40px;
+  right: 370px;
+}
+
+.coinSymbol {
+  text-align: center;
+}
+
+.boxForm {
+  margin-top: 10px;
+}
+
+.table {
+  min-width: 650px !important;
+}
+
+.site {
+  color: #000000 !important;
+}

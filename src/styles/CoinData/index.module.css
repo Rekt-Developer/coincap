@@ -1,0 +1,13 @@
+.hoverRow:hover {
+  background-color: #80808029 !important;
+  transition: 0.5s !important;
+  cursor: pointer;
+}
+
+.tableCeilStyle {
+  padding: 10px !important;
+}
+
+.buttonStyle {
+  background-color: #028202e0 !important;
+}
